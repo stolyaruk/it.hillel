@@ -10,3 +10,4 @@ public class Main {
         System.out.println("My coordinates are: \n" +"Latitude - "+ latitude + "\n" + "Longitude - "+ longitude);
     }
 }
+
