@@ -10,7 +10,7 @@ public class GuessTheNumber {
         Random randomNumber = new Random();
         Scanner scanner = new Scanner(System.in);
 
-        int secretNumber = randomNumber.nextInt(6);
+        int secretNumber = randomNumber.nextInt(1,6);
 
         System.out.println("Guess a number: ");
 
