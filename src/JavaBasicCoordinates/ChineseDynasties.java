@@ -27,7 +27,9 @@ public class ChineseDynasties {
         int attackRateMin = (IntStream.of(armyMin).sum() * TypeCountMin);
         System.out.println("The attack rate of Min army is " + attackRateMin);
 
-        int generalAttackRate = Integer.sum(attackRateLee, attackRateMin);
+        int totalAttackRate = Integer.sum(attackRateLee, attackRateMin);
+
+        System.out.println("The total attack rate of both armies is " + totalAttackRate);
 
     }
 }
