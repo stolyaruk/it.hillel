@@ -1,5 +1,7 @@
 package JavaBasicCoordinates;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -9,6 +11,6 @@ public class Main {
 
         System.out.println("My coordinates are: \n" +"Latitude - "+ latitude + "\n" + "Longitude - "+ longitude + "\n");
         System.out.println("Мої координати: \n" +"Широта - "+ latitude + "\n" + "Довгота - "+ longitude);
+
     }
 }
-
