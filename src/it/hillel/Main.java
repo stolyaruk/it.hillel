@@ -1,4 +1,4 @@
-package JavaBasicCoordinates;
+package it.hillel;
 
 import java.util.Random;
 

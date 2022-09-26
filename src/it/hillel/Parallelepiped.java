@@ -1,4 +1,4 @@
-package JavaBasicCoordinates;
+package it.hillel;
 
 public class Parallelepiped {
 
