@@ -3,35 +3,32 @@ package it.hillel.hw14;
 import java.util.Locale;
 
 public class Person {
-    public String fName;
-    public String lName;
+    public String firstName;
+    public String lastName;
     public String city;
     public long phone;
-    public int age;
-    public double money;
 
     public Person() {
     }
 
-    public Person(String fName, String sName, String city, long phone) {
-        this.fName = fName;
-        this.lName = sName;
+    public Person(String firstName, String lastName, String city, long phone) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.city = city;
         this.phone = phone;
     }
 
-    public void userInfo() {
-        System.out.println("Зателефонувати громадянину "+ fName + " " + lName + " із міста " + city + " можна за номером " + phone + ".");
+    public void personInfo() {
+        System.out.println("Зателефонувати громадянину "+ firstName + " " + lastName + " із міста " + city + " можна за номером " + phone + ".");
     }
 
 //    @Override
 //    public String toString() {
 //        return "Person{" +
-//                "fName='" + fName + '\'' +
-//                ", sName='" + sName + '\'' +
+//                "firstName='" + firstName + '\'' +
+//                ", lastName='" + lastName + '\'' +
 //                ", city='" + city + '\'' +
 //                ", phone=" + phone +
-//                ", age=" + age +
 //                '}';
 //    }
 }
