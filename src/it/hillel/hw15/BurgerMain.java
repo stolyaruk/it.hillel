@@ -11,10 +11,5 @@ public class BurgerMain {
         System.out.print("Бургер №3 - склад: ");
         Burger burger3 = new Burger("булка", "подвійне м'ясо", "сир", "зелень", "майонез");
         burger3.meat = "подвійне м'ясо";
-
-
-//        System.out.println(burger1);
-//        System.out.println(burger2);
-
     }
 }
