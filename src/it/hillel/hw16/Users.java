@@ -59,8 +59,7 @@ public class Users {
     public int getAge() {
         LocalDate today = LocalDate.now();
         LocalDate birthDate = LocalDate.of(getYear(), getMonth(), getDay());
-        int age = Period.between(birthDate,today).getYears();
-        return age;
+        return Period.between(birthDate, today).getYears();
     }
 
     public void printAccountInfo() {
